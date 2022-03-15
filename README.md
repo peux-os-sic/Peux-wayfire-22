@@ -2,7 +2,7 @@
 Peux OS Wayfire 22.03 dotfiles
 
 Sample image:
-![](https://github.com/peux-os-sic/Peux-wayfire-2203/blob/main/way3.png)
+![](https://github.com/peux-os-sic/Peux-wayfire-2203/blob/master/way3.png)
 
 Note: 
 1. If you are using Peux Fetcher to pull the repo, you'd need 'Zenity': `sudo pacman -S zenity`
