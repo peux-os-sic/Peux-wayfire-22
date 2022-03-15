@@ -1,0 +1,7 @@
+environment:
+  cache_exp: 24
+  electron:
+    version: null
+  system: false
+suggestions:
+  cache_exp: 24
