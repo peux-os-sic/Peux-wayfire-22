@@ -17,9 +17,9 @@
         "icon-size": 20,
         "icon-theme": "Star",
         "tooltip-format": "{title}",
-        "on-click": "minimize",
+        "on-click": "activate",
         "on-click-middle": "close",
-        "on-click-right": "activate"
+        "on-click-right": "minimize"
     },
     "keyboard-state": {
         "numlock": true,
@@ -129,7 +129,7 @@
     },
     "custom/launcher":{
         "format": " ",
-        "on-click": "rofi -show drun -theme ~/.config/rofi/wayfire/config2.rasi",
+        "on-click": "rofi -show drun -theme ~/.config/rofi/wayfire/way_config.rasi",
         "on-click-right": "killall rofi"
     },
     "custom/power":{

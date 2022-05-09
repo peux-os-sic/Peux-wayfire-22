@@ -166,7 +166,7 @@
     max_icon_size = 32
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/Zafiro-Icons-Purple/apps/scalable:/usr/share/icons/Zafiro-Icons-Purple/devices/48/
+    icon_path = /usr/share/icons/rose-pine-moon-icons/48x48/apps:/usr/share/icons/rose-pine-moon-icons/48x48@2x/devices
 
     ### History ###
 
@@ -214,7 +214,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 2
+    corner_radius = 15
 
     ### Legacy
 

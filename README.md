@@ -1,5 +1,5 @@
-# Peux-Wayfire-2203
-Peux OS Wayfire 22.03 dotfiles
+# Peux-Wayfire-22
+Peux OS Wayfire 22.05 dotfiles
 
 Sample image:
 ![](https://github.com/peux-os-sic/Peux-wayfire-2203/blob/master/way3.png)

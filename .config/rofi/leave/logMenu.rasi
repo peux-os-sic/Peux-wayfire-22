@@ -1,0 +1,89 @@
+/*
+*
+*   Author: DN-debug
+*
+*/
+
+
+configuration {
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+@import "../colors.rasi"
+
+* {
+    background-color:               @bg;
+    text-color:                     @fg;
+}
+
+window {
+    transparency:                   "real";
+    border-radius:                  2px;
+    width:                          75px;
+    location:                       east;
+    x-offset:                       -15px;
+    y-offset:                        0px;
+}
+
+listview {
+    lines:							6;
+    margin:                         5px;
+    spacing:                        5px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @bg;
+    children:                       [ listview ];
+}
+
+element {
+    background-color:               @bg;
+    text-color:                     @al;
+    orientation:                    vertical;
+    border-radius:                  12px;
+}
+
+element-text {
+	font:							"feather 20";
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         5px 15px 15px 15px;
+    border-radius:                  5px;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color:               @al;
+    text-color:                     @al;
+    border-radius:                  10px;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @al;
+    text-color:                     @al;
+}
+
+element selected {
+    background-color:               @ac;
+    text-color:                     @al;
+    border:                  		0px;
+    border-radius:                  10px;
+}
+
+element selected.urgent {
+    background-color:               @al;
+    text-color:                     @al;
+}
+
+element selected.active {
+    background-color:               @al;
+    color:                          @al;
+}

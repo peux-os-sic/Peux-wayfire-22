@@ -1,0 +1,9 @@
+/** Configured For Applets **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Tela-circle-purple";
+  location: 5;
+  yoffset: -50;
+  xoffset: -20;
+}

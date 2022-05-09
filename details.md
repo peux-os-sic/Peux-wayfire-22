@@ -1,1 +1,1 @@
-This will copy the Peux OS Wayfire 22.03 configurations to your system's "/tmp/Peux-wayfire-2203" directory. You may then copy the respective configuration from this directory over to your Home directory.  The repository can be found at https://github.com/peux-os-sic/Peux-wayfire-2203.
+This will copy the Peux OS Wayfire 22.05 configurations to your system's "/tmp/Peux-wayfire-22" directory. You may then copy the respective configuration from this directory over to your Home directory.  The repository can be found at https://github.com/peux-os-sic/Peux-wayfire-22.

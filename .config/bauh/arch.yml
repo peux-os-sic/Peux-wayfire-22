@@ -12,6 +12,7 @@ clean_cached: true
 edit_aur_pkgbuild: false
 mirrors_sort_limit: 5
 optimize: true
+prefer_repository_provider: true
 refresh_mirrors_startup: false
 repositories: true
 repositories_mthread_download: false

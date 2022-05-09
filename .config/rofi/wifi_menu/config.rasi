@@ -1,0 +1,50 @@
+* {
+    background-color:      #00000066;
+    text-color:            #F2F2F2EE;
+}
+
+#window {
+    anchor:     northeast;
+    location:   northeast;
+    width:      15%;
+    height:     21%;
+    padding:    4px;
+    x-offset:    -5px;
+    y-offset:    50px;
+    children:   [ box ];
+    background-color: #00000066;
+}
+
+textbox-prompt-colon {
+     text-color: inherit;
+     expand: false;
+     str: "Type SSID here";
+ }
+
+#box {
+    orientation: vertical;
+    children:   [ prompt,entry,listview ];
+}
+
+#listview {
+    layout:     vertical;
+    spacing:    5px;
+    lines:      100;
+}
+
+#entry {
+    expand:     false;
+    width:      10em;
+    placeholder: "Type to search";
+}
+
+#element {
+    padding: 12px;
+    color: #676E8D;
+    background-color:   #00000000;
+}
+
+#element selected {
+    color: #fefefe;
+
+}

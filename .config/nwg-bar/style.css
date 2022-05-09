@@ -27,7 +27,8 @@ button, image {
 button {
 	padding-left: 10px;
 	padding-right: 10px;
-	margin: 5px
+	margin: 5px;
+	background-color: white;
 }
 
 button:hover {
